@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="wrapper">
+            <div id="common">
+                <header class="hideHeader">                    
+                        <!--<div id="logo"></div>-->
+                        <nav>
+                            <ul>
+                                <li id="logo">      <a href="#homeContainer"><span class="icon glyphicon glyphicon-empty"></span></a></li><li
+                                    id="home" class='currentPage'>      <a href="#homeContainer"><span class="icon glyphicon glyphicon-home"></span></a></li><li
+                                    id="activities"><a href="#activitiesContainer"><span class="icon glyphicon glyphicon-th-list"></span></a></li><li 
+                                    id="gallery">   <a href="#galleryContainer"><span class="icon glyphicon glyphicon-picture"></span></a></li><li                                
+                                    id="about">     <a href="#aboutContainer"><span class="icon glyphicon glyphicon-comment"></span></a></li><li
+                                    id="contact" >  <a href="#contactContainer"><span class="icon glyphicon glyphicon-envelope"></span></a></li>
+                            </ul>                   
+                        </nav>
+                </header>
+            </div>
+            
+            <div id="homeContainer" class="pageContainer">
+                
+                <div id="image1" class="imageTrans imageIn"></div>
+                <div id="image2" class="imageTrans"></div>
+                <div id="image3" class="imageTrans"></div>
+                <div id="image4" class="imageTrans"></div>
+                
+                <div id="shape">
+                    <div id="rect1"></div>
+                    <div id="rect2"></div>
+                    <div id="rect3"></div>
+                </div>
+                
+                <p id="clause1" class="clause"><span class="cQuote">"</span>
+                    <span class="qFirstLetter">A</span><span class="q">ll that is valuable in human society depends upon the
+                    </br>opportunity for development accorded the individual.</span></br></br><span id="qHR" class="cQuote">"</span>
+                    </br><span class="qSpeaker">Albert Einstein</span>
+                </p>
+                
+                <p id="clause2" class="clause"><span class="cQuote">"</span>
+                    <span class="qFirstLetter">C</span><span class="q">ultural content has importance to society above and beyond
+                    its</br>ability to generate a profit.</span></br></br><span id="qIP" class="cQuote">"</span>
+                    </br><span class="qSpeaker">Bjorn Erik Thon</span>
+                </p>
+                
+                <p id="clause3" class="clause"><span class="cQuote">"</span>
+                    <span class="qFirstLetter">S</span><span class="q">port is part of every man and woman's heritage and its
+                    absence</br>can never be compensated for.</span></br></br><span id="qGS" class="cQuote">"</span>
+                    </br><span class="qSpeaker">Pierre de Coubertin</span>
+                </p>
+                <p id="clause4" class="clause"><span class="cQuote">"</span>
+                    <span class="qFirstLetter">O</span><span class="q">r heritage and ideals, our code and standards - the things
+                    we live by and teach our children - are preserved or diminished
+                    by how freely we exchange ideas and</br>feelings.</span></br></br><span id="qCH" class="cQuote">"</span>
+                    </br><span class="qSpeaker">Walt Disney</span>
+                </p>
+                
+                <div id="headerContainer">
+                    
+                    <div id="divTransparent"></div>
+                    
+                    <header>                    
+                        <div id="logo"><a href="#homeContainer"></a></div>
+                        <nav>
+                            <ul>
+                                <li id="home">      <a href="#homeContainer">      HOME      </a></li><li
+                                    id="activities"><a href="#activitiesContainer">ACTIVITIES</a></li><li 
+                                    id="gallery">   <a href="#galleryContainer">   GALLERY   </a></li><li                                
+                                    id="about">     <a href="#aboutContainer">     ABOUT     </a></li><li
+                                    id="contact">   <a href="#contactContainer">   CONTACT   </a></li>
+                            </ul>                   
+                        </nav>
+                    </header>
+                </div>
+            </div>
+
+            <div id="activitiesContainer" class="pageContainer">
+
+                <div class="content">
+                    <div id="contentBox">
+                        <div id="year">
+                            <div id="yb2014_2013" class="yearBar activeYearBar">
+                                <div id="y2014_2013" class="captionYear activeYear">2014 - 2013</div>
+                            </div><div
+                             id="yb2013_2012" class="yearBar">
+                                <div id="y2013_2012" class="captionYear">2013 - 2012</div>
+                            </div><div
+                             id="yb2012_2011" class="yearBar">
+                                <div id="y2012_2011" class="captionYear">2012 - 2011</div>
+                            </div>
+                        </div>
+                        <div id="activityBox">
+                            <div id="yb2014_2013" class="activityImgContainer">
+                                <div id="Teachers_Day"         class="activityImg activity1Img">
+                                </div><div
+                                    id="Run_Sivasagar_Run"        class="activityImg activity2Img">
+                                </div><div
+                                    id="Football_Team_Promotion"  class="activityImg activity3Img">
+                                </div><div
+                                    id="Mising_Gumrag_Sonam"      class="activityImg activity4Img">
+                                </div><div                            
+                                    id="Teachers_Day"             class="activityImg activity1Img">
+                                </div><div
+                                    id="Run_Sivasagar_Run"        class="activityImg activity2Img">
+                                </div><div
+                                    id="Football_Team_Promotion"  class="activityImg activity3Img">
+                                </div><div
+                                    id="Mising_Gumrag_Sonam"      class="activityImg activity4Img">
+                                </div><div
+                                    id="Teachers_Day"             class="activityImg activity1Img">
+                                </div><div
+                                    id="Run_Sivasagar_Run"        class="activityImg activity2Img">
+                                </div><div
+                                    id="Football_Team_Promotion"  class="activityImg activity3Img">
+                                </div><div
+                                    id="Mising_Gumrag_Sonam"      class="activityImg activity4Img">
+                                </div><div                            
+                                    id="Teachers_Day"             class="activityImg activity1Img">
+                                </div><div
+                                    id="Run_Sivasagar_Run"        class="activityImg activity2Img">
+                                </div><div
+                                    id="Football_Team_Promotion"  class="activityImg activity3Img">
+                                </div><div
+                                    id="Mising_Gumrag_Sonam"      class="activityImg activity4Img">
+                                </div>
+                            </div>
+                            
+                            <div id="yb2013_2012" class="activityImgContainer">
+                                <div id="Promote_Self_Employment"           class="activityImg activity1Img">
+                                </div><div
+                                    id="Seminar_on_Art_of_Living"           class="activityImg activity3Img">
+                                </div><div
+                                    id="Help_to_Flood_Affected_People"      class="activityImg activity4Img">
+                                </div><div                            
+                                    id="Help_to_Flood_Affected_People_2"    class="activityImg activity1Img">
+                                </div><div
+                                    id="Childrens_Summer_Camp"              class="activityImg activity2Img">
+                                </div><div
+                                    id="Childrens_Day_Celebration"          class="activityImg activity3Img">
+                                </div><div
+                                    id="Promotion_of_Cultural_Troupes"      class="activityImg activity4Img">
+                                </div><div
+                                    id="NEST_Foundation_Establishment_Day"  class="activityImg activity4Img">
+                                </div><div
+                                    id="Death_Anniversary_of_Bhimbor_Deori" class="activityImg activity4Img">
+                                </div><div
+                                    id="World_Handicap_Day"              class="activityImg activity4Img">
+                                </div><div
+                                    id="Promotion_of_Football_Team"         class="activityImg activity4Img">
+                                </div><div
+                                    id="Promotion_of_Desangmukh"            class="activityImg activity4Img">
+                                </div><div
+                                    id="Promotion_of_Desangmukh_2"          class="activityImg activity4Img">
+                                </div><div
+                                    id="International_Women_Day"            class="activityImg activity4Img">
+                                </div>
+                            </div>
+                            <div class="activityDetail">
+                                
+                                <!--2012-2013-->
+                                <div id="Promote_Self_Employment_Detail" class="paraActDetail activity activity1">
+                                    <h1>Educational Tour to promote Self Employment</h1>
+                                    <p>
+                                        46 women inhabitant of remote area, unaware of the development all around
+                                        and their right to live with dignity had a smile and confidence on their faces.
+                                        Conveyed their thanks to NEST foundation for their initiative taken. Forty six
+                                        women of this remote area underwent training for self employment as cutting &
+                                        tailoring. They were familiarized with general awareness and different self
+                                        employment schemes for their growth and live a dignified life. Different
+                                        aspects of their fundamental rights like, right to food, right to education
+                                        and responsibilities of a good citizen and more importantly women right for
+                                        social upliftment in the society were the main focus of day.Field visit was
+                                        arranged for them that include historical place of  Rong Ghar & Talatal ghar
+                                        built by Ahom Kingdom of Assam.
+                                    </p>
+                                    <p>
+                                        Active members of NEST Foundation- Sh. Dipak Taye, Project
+                                        coordinator- P.K.Das. Life member- Smt Geeta Deori, Advisor and
+                                        Chairman P.R.Mili delivered lecture on different topics related
+                                        to the programme for their benefits.
+                                    </p>
+                                    <p>
+                                        All the trainees expressed happiness and extended thanks to NEST Foundation.
+                                    </p>
+                                </div>
+                        
+                                <div id="Seminar_on_Art_of_Living_Detail" class="paraActDetail activity activity2">
+                                    <h1>A Seminar on Art of Living</h1>
+                                    <p>
+                                        A serious problem of superstition and witch hunting prevailing in certain
+                                        pockets of Assam leading to search for witches or evidence of witchcraft,
+                                        often involving moral panic, mass hysteria and lynching Superstition is a
+                                        belief in supernatural causality: that one event leads to the cause
+                                        of another without any physical process linking the two events, such
+                                        as astrology, omens, witchcraft, etc. that contradicts natural science.
+                                        The word is often used pejoratively to refer to religious practices other
+                                        than the one prevailing in a given society although the prevailing religion
+                                        may contain just as many supernatural beliefs. In it innocent people are
+                                        hacked to death by their fellow villagers. The reason? They were all
+                                        suspected of practicing black magic or witchcraft. Though government
+                                        has introduced a draft bill to tackle the social evil of witch hunts.
+                                        The state Govt yet to take any legal action to try and curb the practice.
+                                    </p>
+                                    <p>
+                                        To stimulate and to educate the women folks the people of Panidihing in the
+                                        Sivasagar district against the superstition and witch hunting, NEST foundation
+                                        has conducted one day seminar among the tribal women of remote locality at
+                                        Katiyari Higher Secondary School, of the area. Dr. Bina Baruah, Head of
+                                        Department of Botany and Smt Manjumani Das , Lecturere of chemistry Sivasagar
+                                        College Assam has delivered a excruciating lecture on ill effects of superstition
+                                        and witch hunting. In continuation of their lecture they have briefed the
+                                        audience of advancement in Science & Technology of 21st century and how one
+                                        can live with dignity without giving any heed to such superstitions.
+                                    </p>
+                                    <p>
+                                        Dr. Sabir Parvez Islam , has briefed about the advancement in Medical
+                                        Sciences & its technology and its utilization to prevent unforeseen diseases
+                                        which are misnomers to superstition. It was stressed that prevention is better
+                                        than cure.
+                                    </p>
+                                    <p>
+                                        Special emphasis was given Art of Living. Unless we have a stress free mind
+                                        and a violence free society,
+                                        we cannot achieve word peace and personnel growth. Through Art of Living one
+                                        can have stress-elimination and self development programmes based mainly on
+                                        breathing techniques, meditation and Yoga.  These programmes have helped
+                                        thousands around the world to overcome depression and violent and suicidal
+                                        tendencies. A range of mental and Physical benefits were discussed including
+                                        reduced levels of stress, improved immune system, relief from anxiety and
+                                        depression and increased antioxidants protection, enhanced brain function
+                                        among other findings.
+                                    </p>
+                                    <p>The audience was engrossed with the new findings.</p>
+                                    <p>
+                                        Shri P.R.Mili, Chairman NEST Foundation, presided over the seminar.<br>
+                                        Shri P.K.Das, Life member of NEST foundation anchored the program. 
+                                    </p>
+                                </div>
+                
+                                <div id="Help_to_Flood_Affected_People_Detail" class="paraActDetail activity activity3">
+                                    <h1>Help to Flood affected people</h1>
+                                    <p>
+                                        The flood situation in Assam worsened on 28/06/2012. With new areas
+                                        coming under water and the toll reaching 22. The current flood was
+                                        biggest since 1998 as opined by different agencies.<br> 
+                                        Altogether, 21 districts have been affected following the week-long
+                                        incessant rains. The river has breached embankment at five places,
+                                        affecting 1,744 villages across nine district and 70,000 hectare of
+                                        crop land. The river island Majuli was the worst sufferer. About 70%
+                                        of the island had been affected.
+                                    </p>
+                                    <p>
+                                        The administration has opened relief camps, where nearly 2 lakh people
+                                        have taken shelter.  The state government sought more relief material. 
+                                    </p>
+                                    <p>
+                                        NEST Foundation, a volunteer NGO, came forward to extend whole heartedly
+                                        support for the flood affected peoples.  Well wishers and members
+                                        voluntarily collected the different usable items which are bare minimum
+                                        requirements at this juncture and handed it over to flood affected people
+                                        at relief camp opened at  Dikhowmukh High School under Sivasagar District
+                                        Assam.
+                                    </p>
+                                    <p>
+                                        Following Items were distributed at this relief camp.<br><br>
+                                        1. Four No. of Tarpaulins of 15'/20' size.<br>
+                                        2. Fifteen Hundred (1500) good conditioned clothes.<br>
+                                        3. Thirty (30) plain new Mekhla sadar for 30 old women.<br>
+                                        4. One Full cartoon of mosquitoes repellant.<br>
+                                        5. Five Hundred(500) Tooth Brush.<br>
+                                        6. Two Hundred (200) Colgate tooth paste.<br>
+                                        7. Two Hundred (200) Bathing soaps.<br>
+                                    </p>
+                                </div>
+                                
+                                <div id="Help_to_Flood_Affected_People_2_Detail" class="paraActDetail activity activity4">
+                                    <h1>Help to another flood affected people on 30th June, 2012</h1>
+                                    <p>
+                                        Likewise an embankment was breached due to over flood at Dalopa Gaon,
+                                        Panidihing  in Sivasagar District, Assam. Seven houses were swept away
+                                        by the flood with no shelter to live in. NEST Foundation has taken a
+                                        proactive step and Seven family constituting 41 members were provided
+                                        necessary utensil, food items, candles, torch, match box, good conditioned
+                                        used clothes etc to start their life line again.
+                                    </p>
+                                    <p>
+                                        Little voluntarily help has definitely brought a sign of relief at this
+                                        crucial juncture.
+                                    </p>
+                                </div>
+                                
+                                <div id="Childrens_Summer_Camp_Detail" class="paraActDetail activity activity1">
+                                    <h1>Children's Summer Camp ( 1st July to 30th July, 2012 )</h1>
+                                    <p>
+                                        Summer camps could be a form of holiday, a learning experience,
+                                        or a bit of both. Some of the maximum benefits summer camps provide
+                                        is the chance for children to make new friends, learn new skills or
+                                        just look up upon current ones, and stay busy and active all through
+                                        the summer months.
+                                    </p>
+                                    <p>
+                                        During summer vacation 2012 from 1st July to 30th, special coaching
+                                        classes were arranged for school children of remote areas, where there
+                                        is no proper road and inaccessibility of other commodities, are generally
+                                        deprived of such activities. About 90 children of interior school-
+                                        Kaiborta Daloni Janjati L.P. School were benefitted from this camp. 
+                                    </p>
+                                    <p>
+                                        After completion of 30 days coaching camp, the children and teachers
+                                        of the school had a field visit to different historical monuments of
+                                        the Sivasagar city. They were familiarized with the latest developments
+                                        in the field of sports. The team was served with light refreshment. 
+                                    </p>
+                                </div>
+                        
+                                <div id="Childrens_Day_Celebration_Detail" class="paraActDetail activity activity2">
+                                    <h1>Children's day celebration at a remote locality on 14th November, 2012 </h1>
+                                    <p>
+                                        NEST Foundation in collaboration with Paschim Panidihing Anchalik Sishu
+                                        Divas Committee organized children day on 14th November, 2012 at a remote
+                                        locality of Panidihing. More than 1000 (thousand) children participated in
+                                        various events like Quiz competition, Extempore speech, Poem recitation and
+                                        other fun fare activities.
+                                    </p>
+                                    <p>
+                                        On this occasion, Shri P.R. Mili, Chairman NEST Foundation, enlightened the
+                                        children with his speech regarding education, their role, empowerment and
+                                        future plans.
+                                    </p>
+                                </div>
+                
+                                <div id="Promotion_of_Cultural_Troupes_Detail" class="paraActDetail activity activity3">
+                                    <h1>
+                                        Promotion of cultural troupes of remote areas with visit to historical
+                                        places of Sivasagar on 18th November, 2012
+                                    </h1>
+                                    <p>
+                                        Students from poor & Inaccessible areas are generally deprived of accessing
+                                        the benefits of all around development and at the same time it becomes
+                                        difficult for them to maintain the old culture due to financial constraints
+                                        and fulfilling their day to day needs.
+                                    </p>
+                                    <p>
+                                        With a view to get the poor students from remote and inaccessible areas of
+                                        Sivasagar District and to acquaint them with the culture and heritage of
+                                        this historical place, it was planned to organize a cultural trip for them
+                                        to historical places.
+                                    </p>
+                                    <p>
+                                        About 40 (forty) students from various remote areas were facilitated to
+                                        various historical places like Su-ka-pha Nagar at Charaideo; Kareng-ghar
+                                        at Garhgaon; Rang-ghar, talatal-ghar, Shiv Temple at Sivasagar. Delicious
+                                        breakfast & Lunch was arranged for them.  
+                                    </p>
+                                    <p>
+                                        This was followed by a conditioning camp organized by NEST where Shri P.R. Mili,
+                                        Chairman NEST Foundation present on this occasion gave invaluable suggestions
+                                        & advice to the students for their personnel involvement for the betterment
+                                        of their livelihood  and for of nation as whole.
+                                    </p>
+                                </div>
+                                
+                                <div id="NEST_Foundation_Establishment_Day_Detail" class="paraActDetail activity activity4">
+                                    <h1>NEST Foundation Establishment Day on 19th November, 2012</h1>
+                                    <p>
+                                        NEST Foundation celebrated its raising day on 19th November, 2012 at
+                                        the premises of NEST Foundation office, Sivasagar, Assam. 
+                                    </p>
+                                    <p>
+                                        This was accompanied by awareness programme for Women Empowerment
+                                        entrepreneurship development and Intellectual Property Rights.
+                                        More than 80 (eighty) women participated in the events. Dr.Shabir
+                                        Islam, Medical Officer, Shri Lalit Kuli, Suptg.Engineer, Shri K.C.Mech,
+                                        Geologist, Smt.Bidya Patiri,Coordinator, Smt.Pabita Kuli, Coordinator,
+                                        Smt.Geeta Deori, President, Sivasagar District Tribal Women Association
+                                        delivered lectures on the selected topics. Shri P.R.Mili, Chairman NEST
+                                        foundation delivered key note address. Shri Krishna Kanta Mech, Chairman,
+                                        Mech Kachari Development Council Govt. of Assam anchored the entire
+                                        function.
+                                    </p>
+                                </div>
+                                
+                                <div id="Death_Anniversary_of_Bhimbor_Deori_Detail" class="paraActDetail activity activity1">
+                                    <h1>
+                                        Observed 65th Death Anniversary of one of the eminent freedom
+                                        fighter and ex Forest Minister of Assam Late Bhimbor Deori on
+                                        30th November, 2012
+                                    </h1>
+                                    <p>
+                                        Born in Deori Borgaon, Nitaipukhuri, Panidehing in 1903; a very
+                                        remote village in Sivasagar District, late Bhimbor Deori was ex-forest
+                                        minister of Assam. But he was more of a leader of the people and for
+                                        the people. Bhimbor Deori was a freedom fighter and a renowned lawyer
+                                        from the state of Assam in India. A stern nationalist from the indigenous
+                                        society of Assam played a significant role on the eve of the change of
+                                        colonial power in Assam. He was one of the main architects of the famous
+                                        "Khasi Darbar Hall Resolutions" held on 21,22 and 23rd March 1945 where
+                                        indigenous leaders of different ethnic identities resolved resolutions
+                                        to restore their independent homelands against Indian occupation He led
+                                        the history of north east a new turn and vision to look ahead with a prime
+                                        development and with essence of freedom to self independence of different
+                                        tribes He was founder General Secretary of Assam Plain Tribal League in
+                                        the year 1933. He tried hard to ensure that indigenous people of the State
+                                        to allotted the land pattas. 
+                                    </p>
+                                    <p>
+                                        But today, the people of Assam have forgotten this multi-faceted leader
+                                        and son of Assam.
+                                    </p>
+                                    <p>
+                                        NEST foundation observed 65th death anniversary to commemorate this silent
+                                        hero at the premises of Rangpur Jyoti Club, Sivasagar and made the young
+                                        generation acquainted with his qualities.  
+                                    </p>
+                                </div>
+                        
+                                <div id="World_Handicap_Day_Detail" class="paraActDetail activity activity2">
+                                    <h1>Observation of World Handicap Day on 3rd December, 2012</h1>
+                                    <p>
+                                        On the occasion of World Handicapped Day, NEST Foundation organized
+                                        an awareness programme in collaboration with the District Authorities
+                                        at Na-pukhuri, Joysagar, Sivasagar. 
+                                    </p>
+                                    <p>
+                                        42 (forty two) students along with their guardians were first brought
+                                        to ONGC Colony on a bus provided by NEST Foundation. P.R. Mili, Chairman
+                                        NEST Foundation gave a speech on this occasion getting the students
+                                        acquainted with the greatness and legacy of late B. R. Ambedkar, the
+                                        founder of modern India. 
+                                    </p>
+                                    <p>
+                                        Then the students were taken to the awareness meeting at Joysagar then
+                                        back to their houses. It was really heart-touching to see their smiling
+                                        and happy faces despite their disabilities.
+                                    </p>
+                                </div>
+                
+                                <div id="Promotion_of_Football_Team_Detail" class="paraActDetail activity activity3">
+                                    <h1>
+                                        Promotion of Football Team on 13th December, 2012
+                                    </h1>
+                                    <p>
+                                        A team of young and talented football players were identified by NEST Foundation
+                                        in collaboration with Desangmukh Anchalik Upo-Krira Hontha in early 2012. A total
+                                        of 24 players were provided with jerseys, boots and kit-bags and arranged
+                                        training in various conditioning camps. 
+                                    </p>
+                                    <p>
+                                        The efforts were not futile as the team emerged to be the Sivasagar District
+                                        football league champions.  
+                                    </p>
+                                    <p>
+                                        P.R. Mili, Chairman NEST Foundation gave a warm and encouraging speech to them on
+                                        13th December as they prepare themselves as the main district team in next year's
+                                        Inter District Football Competition.
+                                    </p>
+                                </div>
+                                
+                                <div id="Promotion_of_Desangmukh_Detail" class="paraActDetail activity activity4">
+                                    <h1>
+                                        Promotion of Desangmukh as Eco-diversity park & Eco-tourism Spot on
+                                        16th December, 2012
+                                    </h1>
+                                    <p>
+                                        Located in a remote area on the banks of the mighty Brahmaputra River,
+                                        a land of the aborigines of Assam; the Misings and the indigenous people,
+                                        a place where Azaan Fakir has found his solace, Desangmukh has always been
+                                        a land of mystique and serene beauty.
+                                    </p>
+                                    <p>
+                                        But this place is also known for its eco-diversity and immense scope of eco-tourism.
+                                    </p>
+                                    <p>
+                                        With a view to promote and uplift of Desangmukh, NEST Foundation, in collaboration
+                                        with Desangmukh Gaon Panchayat and the local people; organised a picnic on the banks
+                                        of Desang River. The invitees included Sri Jatindra lahkar, Deputy Commisioner, Sivasagar;
+                                        Sri Bimal Kr. Baruah, Executive Director, ONGC Assam Asset, Nazira; Sri Akilesh Kr. Singh,
+                                        Suptd of Police, Sivasagar District; Sri Hema Gogoi, President, Zila Parisad and Sri
+                                        Luhit Deka, Director All India Radio, Dibrugarh,  amongst others.
+                                    </p>
+                                    <p>
+                                        They were mesmerised by the location as well as the arrangements in such a remote area.
+                                        Speaking on this occasion, The Deputy Commissioner., Sivasagar and E.D., ONGC Assam Asset
+                                        promised forall possible help for the upliftment of the area as a whole and promotion of
+                                        the area as ECO-DIVERSITY and ECO TOURISM PARK.
+                                    </p>
+                                    <p>
+                                         To encourage a new-generation writer, Mrs Tulika Chetia Yein; also a member of the NEST
+                                         Foundation; a book titled "Hahir Aakash Premor Aakash" was unveiled on the same venue.
+                                         The programme was hosted by renowned singer Dr. B. Bhagawati, a member of NEST
+                                         Foundation and Mrs Tukila Chetia yein.
+                                    </p>
+                                    <p>
+                                        This was followed by fun-fair for both children and adult and buffet for all.
+                                    </p>
+                                </div>
+                                <!--
+                                <div id="" class="paraActDetail activity activity1">
+                                    <h1>
+                                    
+                                    </h1>
+                                    <p>
+                                         
+                                    </p>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                                -->
+                                
+                                <div id="Promotion_of_Desangmukh_2_Detail" class="paraActDetail activity activity1">
+                                    <h1>
+                                        An effort to  promote of Desangmukh aseco-diversity park & eco-tourism spot 16th December, 2012
+                                    </h1>
+                                    <p>
+                                        Located in a remote area on the banks of the mighty Brahmaputra River, a land of the
+                                        aborigines of Assam; the Misings tribes and the indigenous people, a place
+                                        where Azaan Fakir has found his solace, Desangmukh has always been a land
+                                        of mystique and serene beauty. 
+                                    </p>
+                                    <p>
+                                        This place is also known for its eco-diversity and immense scope of eco-tourism.
+                                        Every year during winter season specially from November to February large numbers of
+                                        tourists from Northeast, other than Northeast even from abroad use to visit the Desangmukh
+                                        for picnic purpose. So, with a view to highlight the traditional cultures, ethnic food and
+                                        games & sports a mega publicity programme was organised on 13th January 2013. A popular
+                                        electronic media under the umbrella of "Deoboriya Adda" led by managing editor of NEWS LIVE TV
+                                        channel Shri Anupam Chakraborty carried out the task. Shri P R Mili, Chairman Nest Foundation
+                                        and his team interviewed regarding feasibility of Eco-tourism development of the area.
+                                    </p>
+                                    <p>
+                                        On 10.02.2013 NEST Foundation organized seminar on Future of Nation in Socio-Economic Perspective
+                                        at a remote locality called Balikur Mising Gaon,Panidihing,Sivasagar,Assam . Resource persons were
+                                        DR. Prafulla Hazarika, HoD Economics, Demow College, Mrs.Sashi Prosad, DGM-HR, ONGC and  Mrs.Tulika
+                                        Chetia Yein, Mrs.Bidya Patiri, Mr.S.K.Das Life Members of NEST foundation were present in the function.  
+                                    </p>
+                                </div>
+                        
+                                <div id="International_Women_Day_Detail" class="paraActDetail activity activity2">
+                                    <h1>
+                                        International Women Day Celebration on 8th March, 2013 
+                                    </h1>
+                                    <p>
+                                        In order to give awareness on constitutional obligation on women rights and responsibility of women
+                                        for nation building a Seminar was organised on the occasion of International women Day by
+                                        NEST Foundation. DR Lakhimi Dutta, HOD of English, Dr Mrinalini Mahanta, HOD vigilance Study,
+                                        Sivasagar Commerce College delivered lecture. Ms. Gita Derori share the function.
+                                    </p>
+                                </div>
+                                
+                                <!-- 2013-2014-->
+                                <!--
+                                <div id="" class="paraActDetail activity activity1">
+                                    <h1>
+                                    
+                                    </h1>
+                                    <p>
+                                         
+                                    </p>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                        
+                                
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="galleryContainer" class="pageContainer">
+                
+                <div class="content">
+                    
+                    
+                    <div id="galleryBox">
+                        <div id="year">
+                            <div id="yb2014_2013" class="yearBar">
+                                <div id="y2014_2013" class="captionYear activeYear">2014 - 2013</div>
+                                
+                            </div><div
+                             id="yb2013_2012" class="yearBar">
+                                <div id="y2013_2012" class="captionYear">2013 - 2012</div>
+                            </div><div
+                             id="yb2012_2011" class="yearBar">
+                                <div id="y2012_2011" class="captionYear">2012 - 2011</div>
+                            </div>
+                        </div>
+                        
+                        <div id="album1" class="album">
+                            <h3>Teacher's Day Celebration</h3>
+                            <div class="imgBox">
+                                <div id ="alb1_img1" class="imgAlbum"></div><div
+                                     id ="alb1_img2" class="imgAlbum"></div><div
+                                     id ="alb1_img3" class="imgAlbum"></div><div
+                                     id ="alb1_img4" class="imgAlbum"></div><div
+                                     id ="alb1_img5" class="imgAlbum"></div><div
+                                     id ="alb1_img6" class="imgAlbum"></div>
+                            </div>
+                        </div>
+                        
+                        <div id="album2" class="album">
+                            <h3>Foolball Team Promotion</h3>
+                            <div class="imgBox">
+                                <div id ="alb2_img1" class="imgAlbum"></div><div
+                                     id ="alb2_img2" class="imgAlbum"></div><div
+                                     id ="alb2_img3" class="imgAlbum"></div><div
+                                     id ="alb2_img4" class="imgAlbum"></div><div
+                                     id ="alb2_img5" class="imgAlbum"></div><div
+                                     id ="alb2_img6" class="imgAlbum"></div>
+                            </div>
+                        </div>
+                        
+                        <div id="album3" class="album">
+                            <h3>Run Sivasagar Run</h3>
+                            <div class="imgBox">
+                                <div id ="alb3_img1" class="imgAlbum"></div><div
+                                     id ="alb3_img2" class="imgAlbum"></div><div
+                                     id ="alb3_img3" class="imgAlbum"></div><div
+                                     id ="alb3_img4" class="imgAlbum"></div><div
+                                     id ="alb3_img5" class="imgAlbum"></div><div
+                                     id ="alb3_img6" class="imgAlbum"></div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                    <div id='popImg'>
+                        <div id='popImgBox'></div>
+                        <div id='popImgClose'><span class="icon glyphicon glyphicon-remove"></span></div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="aboutContainer" class="pageContainer">
+                
+                
+                <div class="content">
+                    <div id="aboutBox">
+                        <h1>PREAMBLE OF THE TRUST</h1>
+
+                        <p>The NEST Foundation believes in the philosophy of "<em> Atta Deepo Bhava  </em>"   i.e. <em>  Enlighten Yourself  </em> . education is the master key of the development of the individual, society and Nation as well. education is also basis of awakening, self reliance and healthier and better living. the Founder Members felt to establish the Foundation for the development, establishment, improvement, betterment, settlement and management of environment, communication, rural development, social works, science and technology, planning and entrepreneurship for providing better living to the people and contributing in the Nation building. It is felt that issues related with intellectual property rights are getting prominence in the world, but in India, it is required to educate, to create awareness in the people of India about the issues, rights and duties related with intellectual property as Patents, Copyrights, Trademarks, Geographical Indications and Trade Secrets etc. Protection, preservation and promotion of the traditional knowledge, traditional cultural expressions, traditional folklore and indigenous knowledge of the people of India is also a need of the hour and also to safeguard the interest, rights and benefits of the holders of holders of the traditional knowledge traditional cultural expressions, traditional folklore and indigenous knowledge of the people of India. For the development and growth of the country, it is felt that the Young People of India should be provided training and career related program so that they can stand on their feet and can contribute for the Nation as well. Women empowerment and child care issues and also the health of the common people is utmost important for vibrant and modern India In order to achieve all these, the NEST Foundation will work tirelessly and will generate resources.</p>
+                        </br>
+                        <h2>AIMS AND OBJECTS OF THE TRUST</h2>
+                        
+                        </br><span>1.  To establish Public School, College, Institute and University at various places in order to impart modern and useful education to children beloning to poor, needy, underprivileged and downtrodden people.</span>
+                        </br></br><span>2.  To establish, maintain, run, develop, improve, extend, grant, donate for and to aid in the establishment, maintenance, improvement and extension of Public School, College, Institute and University in the field of Arts, Science, Commerce, Music, Engineering, Medical, Management, Law, Intellecutual Property Rights, Traditional Knowledge, Biodiversity, Wild Life Conservation and in any branch of the knowledge.</span>
+                        </br></br><span>3.  To institute studentship, scholarships, Stipends, medals and prizes etc. to help and encourage deserving students and to provide monetary aid to students, scholars, teachers for pursuing their studies.</span>
+                        </br></br><span>4.  To organize examinations and other competitive activities to select the best talent available among socially, economically and educationally backward society. the selected candidates would be given all facilities and guidance to carry out futher study in India or abroad wherever the Trust shall decide. This help may be in the form of cash, scholarship, award, coaching, guidance etc. The Foundation shall create awareness in masses through organizing camps and seminars etc. at different placed in the country to achieve this objective.</span>
+                        </br></br><span>5.  To educate, create awareness in the people of India about the issues, rights and duties related with intellectual property as Patents, Copyrights, Trademarks, Geographical Indications, Trade Secrets and others and also to protect and promote Intellectual Property Rights through Audio-Visual Media, Print and electronic media and through various other forms like art, painting, crafts etc.</span>
+                        </br></br><span>6.  To protect, preserve and promote the traditional knowledge, traditional cultural expressions, traditional folklore and indigenous knowledge of the people of India.</span>
+                        </br></br><span>7.  To safeguard the interest, rights and benefits of the holders of the traditional   knowledge, traditional, cultural expressions, traditional folklore and indigenous of the people of India.</span>
+                        </br></br><span>8.  To protect, preserve and promote the traditional handicrafts, traditional handlooms, traditional paintings, traditional art, traditional food, beverages and other things related with indigenous and traditional   knowledge of the people of India.</span>
+                        </br></br><span>9.  To protect, preserve flora fauna, biodiversity and wild life and to educate, to create awareness about the issues related with them through Mass Media and other activities.</span>
+                        </br></br><span>10. To promote traditional therapies like Yoga, Naturopathy, Meditation, Acupressure, Acupuncture, Massage Therapy, Ayurveda, Homeopathy, Reiki etc.</span>
+                        </br></br><span>11. To open women and child care centre and also to organize the family welfare programmes and to carry out the activities related with woman empowerment and development.</span>
+                        </br></br><span>12. To use Right to Information (RTI) Act for social upliftment, rooting out corruption in India and to fulfill aims and objectives of the Trust.</span>
+                        </br></br><span>13. To provide education and various trainings to the handicapped persons and also to conduct lectures, seminars and other programmes to them.</span>
+                        </br></br><span>14. To make donation, grants, loans and other aid to various branches of the public schools, educational institutions and public charitable institutions run by the foundation.</span>
+                        </br></br><span>15. To grant endowments at universities, research institutions, educational and scientific institutions for spread of education and  knowledge in all fields and any branch of  knowledge.</span>
+                        </br></br><span>16. To acquire immovable and movable properties and let out the surplus properties for furtherance of objectives of the Trust.</span>
+                        </br></br><span>17. To develop the rural society through education, employment and providing information,  knowledge in the field of agriculture and day to day activities and to establish such scheme and programmes for the development of the land for agricultural purpose and also to develop and use the means and methods for "Harit Kranti" in India.</span>
+                        </br></br><span>18. To protect environment, create awareness about the issues related with environment through education and mass media activities.</span>
+                        </br></br><span>19. To establish charitable hospitals, health camps and to organise medical camps and such other activities for betterment of the health of the people and to create awareness and upgrade consciousness for better health and family planning.</span>
+                        </br></br><span>20. To propect, preserve and promote the culture, traditions and language of the people of India and in order to protect, promote them establising offices, institutes and others as per requirements.</span>
+                        </br></br><span>21. To promote and protect natural herbs and plants by cultivation, preservation, storage, processing, demonstration, creating botanical garden and providing necessary training.</span>
+                        </br></br><span>22. To develop human resource and to conduct various career oriented programmes, computer training and Information Technology (IT) related courses for the students, unemployed persons and needy people to provide them livelihood, and to meet day to day challenges for the growth of the Nation and also to issue the Certificate of Completion of the Training/Career Oriented Programme to the participants.</span>
+                        </br></br><span>23. To practice and promote Yoga, Meditation, Pranayam and other forms of the art of living and to issue 'Certificate of Completion of the Programme'.</span>
+                        </br></br><span>24. To restore the human rights and duties among the masses against police atrocities, social discrimination, communal riots and caste discrimination etc and to educate, to create awareness about human rights and duties and also to promote them.</span>
+                        </br></br><span>25. To provide vocational trainings, guidance and extend all help to encourage the self employment and commercial activities for self reliance and better living and also to issue the 'Certificate of Completion of the Training' to the participants.</span>
+                        </br></br><span>26. To provide consciousness among deprived and have-nots for their self respect.</span>
+                        </br></br><span>27. To propagate the philosophy of action and reason as against the philosophy of fatalism, inaction, discrimination and orthodoxy.</span>
+                        </br></br><span>28. To provide legal aid to the poor and needy in the form of guidance, information, support and monetary aid directly or through a legal person.</span>
+                        </br></br><span>29. To support, develop and promote the ways, means and methods of farming, fishery, forestry, gardening etc. and to create the opportunities of livelihood out of these activities.</span>
+                        </br></br><span>30. To protect the land of aboriginal people of India and also to safeguard the interests, rights and benefits of the people related with the land of the aboriginal people of the India.</span>
+                        </br></br><span>31. To undertake, organise, conduct and facilitate Courses, Conference, Lecture, Research and Education on various aspects of science and technology, intellectual property rights, traditional   knowledge, social and human rights issues, trust and other fields.</span>
+                        </br></br><span>32. To undertake and to promote the publication and translation of magazine, books, journal, research papers etc.</span>
+                        </br></br><span>33. To organise charity shows, music, art, painting and culture shows, theatre, film shows etc. to raise the fund for the fulfillment of aims and objectives of the Trust and to raise fund through sale of articles of handicrafts, handlooms etc. and also to develop other legitimate means and methods to raise the fund for the fulfillment of aims and objectives of the Trust.</span>
+                        </br></br><span>34. To establish, dig construct, start, run, maintain or to provide ponds, wells, tube wells, tanks hand pumps, pools etc, at any place or places in India for the use and benefit of the public general.</span>
+                        </br></br><span>35. To give aid to deserving needy or poor person or person in the shape of money, cloth articles food or providing them with lodging or residential and familial and generally to help and poor person or person.</span>
+                        </br></br><span>36. To open, establish, promote, set-up, run, maintain, assist, support or help the various community development programmers/activities and also construct and develop the community Halls, Barat Ghar/Marriage Home, Dharamsalla, shelters, sulabh sochalay, old age home, health care centers, charitably dispensaries hospital, libraries reading rooms, playgrounds, stadium (both open and indoor), yoga training centers, Gymnasiums, sangeetalay and Nrityalay (music and dance training center), Anganwari, Balwari, Mahila ashrams, Palan Ghar, Nari Niketan, Orphanage, Leprosy Centers, studios, Drama stage and other buildings and the Institutions for the upliftment and betterment of the members of the society and for the general welfare of the general public, in all over India.</span>
+                        </br></br><span>37. To raise funds through donation, grants, loans etc. from India/Foreign institutions/organizations etc. for fulfillment of aims and object of the trust as per law and government rules in force.</span>
+                        </br></br><span>38. To promote National Integration, Communal Harmony, Universal Brotherhood and Global Peace and to promote India tradition and cultural values among people.</span>
+                        </br></br><span>39. To promote and advocate Human Rights and Fundamental Freedom for all without any discrimination of race, religion, caste, color, sex and language.</span>
+                        </br></br><span>40. To conduct or facilitate research studies on the social and economic conditions of people the development and growth of society and Nation as well.</span>
+                        </br></br><span>41. To communicate and coordinate with the Govt. Local and public authorities on various issues related to development welfare and public interest on different subjects.</span>
+                        </br></br><span>42. To work and fight against discrimination based on Cast, Creed, Colour, Gender, Religion, Faith, Race & Nationality.</span>
+                        </br></br><span>43. To spread the teachings & thoughts of great leaders, philosophers, thinkers, reformers and saints.</span>
+                        </br></br><span>44. To establish Citizen Forum (s) and Resident Welfare Association (s) for the development of high values of the Unity, Brotherhood, Communal Harmony and Peace. </span>
+                        </br></br><span>45. To promote and support voluntary donation of Blood, Eyes and other parts of human body for the charitable purpose.</span>
+                        </br></br><span>46. To establish residential and non- residential cultural centers for promotion of Creative Writing, Music, Dance, Arts, Paintings and other Creative Activities.</span>
+                        </br></br><span>47. To establish an award for the deserving people in the field of Creative Writing, Music, Art, Social Service, communal harmony, brotherhood and peace.</span>
+                        </br></br><span>48. To promote traditional  games along with the contemporary sports among youth & others and to give awards, rewards and monetary assistance and to issue 'Certificates of Achievement' in games and sports.</span>
+                        </br></br><span>49. To make  films, documentaries etc., and to create and use audio visual media, print and electronic media, plays, dramas, workshops, painting exhibitions etc. for achieving the aims and objectives of the Trust and also to establish entertainment and recreation centers in the interest of the common people.</span>
+                        </br></br><span>50. To celebrate annual day of the trust every year as Cultural & Social Event.</span>
+
+                    </div>
+                    
+                    <div id="memBox">
+                        <div id="mem1" class="member"></div>
+                        <div id="mem2" class="member"></div>
+                        <div id="mem3" class="member"></div>
+                        <div id="mem4" class="member"></div>
+                        <div id="mem5" class="member"></div>
+                        <div id="mem6" class="member"></div>
+                        <div id="mem7" class="member"></div>
+                        <div id="mem8" class="member"></div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="contactContainer" class="pageContainer">
+                
+                <div class="content">
+                    <!--<div id="contactBlock">-->
+                        <div id="contactForm" class="contactBox">
+                            <form>
+                                <h1>CONTACT</h1>
+                                <input type="text" name="name" placeholder="Name (Required)" required autocomplete="on">
+                                <input type="tel" name="phoneNo" placeholder="Phone" maxlength=10 autocomplete="on">
+                                <input type="email" name="email" placeholder="email" autocomplete="on">
+                                <textarea rows="5" name="message" placeholder="Say Hello..."></textarea>
+                                <input id="btnReset" type="reset" name="btnReset" class="btn" value="R" alt="Reset all fields.">
+                                <input id="btnSubmit" type="submit" name="btnSubmit" class="btn" value="Submit">
+                                
+                            </form>
+                        </div><div
+                         id="addressDetails" class="contactBox">
+                            <h1>ADDRESS</h1>
+                            <address>National  Educational Social & Traditional Knowledge (NEST) Foundation</br>
+                            (Regd. Under Indian Trust Act, 1882 Regd. No 5504)<br><br>
+                            Administration Office : 1st Floor Tribal Cultural Bhavan Station Chariali,</br>
+                            Sivasagar, Assam-785640.</br>
+                            </address>
+                            <hr/>
+                            <br>
+<<<<<<< HEAD
+                            <p><span class="icon glyphicon glyphicon-phone"></span>              +91-99-544-294-48.            </p>
+                            <p><span class="icon glyphicon glyphicon-phone"></span>               +91-94-015-089-44.            </p>
+                            <p><span class="icon glyphicon glyphicon-envelope"></span><a href="mailto:nestfoundation@gmail.com">    nestfoundation@gmail.com     </a></p>
+                            <p><span class="icon glyphicon glyphicon-globe"></span><a href="http://www.nest.org"               >     www.nestfoundation.org.in      </a></p>
+=======
+                            <p><span class="icon glyphicon glyphicon-phone"></span                                              >                0-3772-267-334.                </p>
+                            <p><span class="icon glyphicon glyphicon-phone-alt"></span                                          >              +91-99-571-666-04.             </p>
+                            <p><span class="icon glyphicon glyphicon-envelope"></span> <a href="mailto:nestfoundation@gmail.com">    nestfoundation@gmail.com    </a></p>
+                            <p><span class="icon glyphicon glyphicon-globe"></span> <a href="http://www.nest.org"               >                  www.nest.org                  </a></p>
+>>>>>>> e000059c475fa77ea8d89a45b5f8cd5f666021c3
+                            <br><br>
+                        </div>                        
+                    <!--</div>-->
+                    
+                    <div id="mapBox"></div>
+                    <div id="mapInfoBoxCustom"></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--<p>Hello world! This is HTML5 Boilerplate.</p>-->
+
+        <script language="javascript">
+        
+            $(document).ready(function(){
+                shape();
+                slide();
+                setInterval(slide,32000);
+
+                $(window).resize(function(){
+                    shape();
+                    $( ".pageContainer" ).css('min-height', $(window).height());
+                    $( ".imageTrans" ).css('min-height', $(window).height());
+
+                    $( "#aboutContainer .content" ).css('min-height', ($(window).height()-120)+'px');
+                    
+                    displayHeader();
+                });
+
+                //scrolls smoothly on clicking a nav link
+                $("header ul li").click(function(event){
+                    event.preventDefault();
+                    pageScrollSmooth($(this));
+                });
+                
+                $("header #logo").click(function(event){
+                    event.preventDefault();
+                    pageScrollSmooth($(this));
+                });
+                
+                // display header after half the height of home page
+                // and hilight the header links to current page respectively. 
+                
+                displayHeader();
+
+                $(window).bind('scroll', function() {
+                    displayHeader();
+                });
+
+                // Activity year-wise
+                $(" #activitiesContainer .yearBar ").click(function(){
+                    displayYear($(this));
+                });
+                
+                
+                $(".activityImg").click(function(){
+                    targetId=$(this).attr('id');                    
+                    activityActive(targetId);
+                });
+
+                //Display Activity Deatils on clicking the Image.
+                $('div.activityImg').click(function(){
+                    activeActivity($(this));                             
+                });
+
+                $(document).click(function(event) {
+                    hideActivity(event);                    
+                });
+                
+                //Gallery Image Hover Animation
+                $('.imgAlbum').mouseover(function(event){
+                    event.preventDefault();
+                    focusImg($(this));                             
+                });
+                
+                $('.imgAlbum').click(function(){
+                    
+                    //$('#popImg').css('background-image',$(this).css('background-image'));
+                    var imgUrl = $(this).css('background-image');
+                    
+                    imgUrl = 'url("./'+imgUrl.replace(/.*(?=img)/i, "");
+                    //imgUrl = imgUrl.replace('")','');
+                    //alert(imgUrl);
+                    
+                    $('#popImg').css('display','block');
+                    $('#popImgBox').css('background-image',imgUrl);
+                });
+                
+                $('#popImgClose').click(function(){
+                    $('#popImg').css('display','none');
+                });
+            });
+            
+            // google map.
+            function initialize() {
+                
+                var map_canvas = document.getElementById('mapBox');
+                
+                var NEST_pos = new google.maps.LatLng(26.989491, 94.638631);
+
+                var map_options = {
+                    center: NEST_pos,
+<<<<<<< HEAD
+                    zoom: 15,
+                    mapTypeControl: true,
+=======
+                    zoom: 15,                    
+                    mapTypeControl: true,
+                    //mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+                    navigationControl: false,
+                    //navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+>>>>>>> e000059c475fa77ea8d89a45b5f8cd5f666021c3
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                
+                var map = new google.maps.Map(map_canvas, map_options)
+
+<<<<<<< HEAD
+                var NEST_Marker = new google.maps.Marker({
+=======
+                var companyMarker = new google.maps.Marker({
+>>>>>>> e000059c475fa77ea8d89a45b5f8cd5f666021c3
+                    position: NEST_pos,
+                    map: map,
+                    title:"NEST Foundation"
+                });
+                
+<<<<<<< HEAD
+                google.maps.event.addListener(NEST_Marker, 'click', function() {
+                    infobox.open(map,NEST_Marker);
+=======
+                google.maps.event.addListener(companyMarker, 'click', function() {
+                    //infowindow.open(map,companyMarker);
+                    infobox.open(map,companyMarker);
+>>>>>>> e000059c475fa77ea8d89a45b5f8cd5f666021c3
+                });
+            }
+            
+            var contentString = '<div id="mapInfoWindowContent">'+
+                                '<div id="siteNotice">'+
+                                '</div>'+
+                                '<h1 id="firstHeading" class="firstHeading">NEST Foundation</h1>'+
+                                '<div id="bodyContent">'+
+<<<<<<< HEAD
+                                '<span>National Educational Social & Traditional Knowledge (NEST) Foundation'
+                                +'<br>(Regd. Under Indian Trust Act, 1882 Regd. No 5504)'
+                                +'<br>Administration Office : 1st Floor Tribal Cultural Bhavan Station Chariali'
+                                +'<br>Sivasagar, Assam-785640.</span>'+
+                                '</div>'+
+                                '</div>';
+=======
+                                '<address>National Educational Social & Traditional Knowledge (NEST) Foundation'
+                                +'<br>(Regd. Under Indian Trust Act, 1882 Regd. No 5504)'
+                                +'<br>Administration Office : 1st Floor Tribal Cultural Bhavan Station Chariali'
+                                +'<br>Sivasagar, Assam-785640.</address>'+
+                                '</div>'+
+                                '</div>';
+                             
+            //var infowindow = new google.maps.InfoWindow({
+            //    content: contentString
+            //});
+>>>>>>> e000059c475fa77ea8d89a45b5f8cd5f666021c3
+            
+            var infoBoxWidth=419;
+            
+            if ($(window).width() < 429 ) {
+                infoBoxWidth = $(window).width()-10;
+            }
+            else{
+                infoBoxWidth=419;
+            }
+<<<<<<< HEAD
+
+            var infobox = new InfoBox({
+                            content: contentString,
+                            infoBoxClearance: new google.maps.Size(10,10),
+                            alignBottom: true,
+                            pixelOffset: new google.maps.Size(-(infoBoxWidth/2),-45),
+                            zIndex: null,
+                            boxStyle: {opacity: 1,width: infoBoxWidth+"px" },
+                            closeBoxMargin: "5px 5px 5px 5px",
+                            closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
+                        });
+            
+            google.maps.event.addDomListener(window, 'load', initialize);
+=======
+            
+            
+            
+            var infobox = new InfoBox({
+                            content: contentString,
+                            disableAutoPan: false,
+                            alignBottom: true,
+                            pixelOffset: new google.maps.Size(-(infoBoxWidth/2),-45),
+                            zIndex: null,
+                            boxStyle: {opacity: 0.9,width: infoBoxWidth+"px" },
+                            closeBoxMargin: "5px 5px 5px 5px",
+                            closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
+                            infoBoxClearance: new google.maps.Size(1, 1)
+                        });
+            
+            google.maps.event.addDomListener(window, 'load', initialize);
+            
+>>>>>>> e000059c475fa77ea8d89a45b5f8cd5f666021c3
+        </script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--<script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>-->
+    </body>
+</html>
